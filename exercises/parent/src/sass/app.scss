@@ -4,8 +4,10 @@
   margin: auto;
   background: #eee;
 
-  .sidebar,
-  .main { padding: 10px; }
+  .main,
+  .sidebar {
+    padding: 10px;
+  }
 
   .main {
     margin-left: 220px;
@@ -16,5 +18,15 @@
   .sidebar {
     width: 200px;
     float: left;
+  }
+
+  &.right-nav {
+    .sidebar {
+      float: right;
+    }
+    .main {
+      margin-left: 0;
+      margin-right: 220px;
+    }
   }
 }

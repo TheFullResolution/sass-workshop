@@ -9,3 +9,26 @@ body h1 {
   line-height: 20px;
   border-radius: 2px;
 }
+
+.btn.btn--mode-primary {
+  background-color: #c46;
+  color: white;
+}
+
+.btn.btn--mode-secondary {
+  background-color: #edbcc8;
+  color: black;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn:disabled .btn__price {
+  background-color: #aaa;
+}
+
+.btn__price {
+  background-color: #008000;
+  padding: 1px 3px;
+}
